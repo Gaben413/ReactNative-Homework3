@@ -33,7 +33,6 @@ export default function App() {
         <Button
           title={texto1}
           onPress={clicarBotao1}
-          style={styles.button}
         />
         
         {
@@ -64,10 +63,6 @@ const styles = StyleSheet.create({
   view:
   {
     width: '100%'
-  },
-  button:
-  {
-    paddingLeft: 100
   },
   text:
   {
